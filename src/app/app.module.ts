@@ -7,13 +7,15 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { FormsModule } from '@angular/forms';
+import { NamePipe } from './name.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     HomeComponent,
-    HeroesComponent
+    HeroesComponent,
+    NamePipe
   ],
   imports: [
     BrowserModule,
